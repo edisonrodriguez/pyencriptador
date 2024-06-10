@@ -1,0 +1,135 @@
+body{
+    /* Encriptador - 1 Desktop */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+/* Light blue/light-blue-100 */
+background: #F3F5FC;
+
+}
+
+.encriptador textarea {
+    /* Ingrese el texto aqui */
+
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+border: none; /* Elimina el borde */
+outline: none;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+
+}
+
+.terminos p{
+    /* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 229px;
+height: 18px;
+left: 240px;
+top: 851px;
+
+
+}
+
+.botones .btn-encripter{
+ /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+color: #F3F5FC;
+
+}
+
+.botones .btn-desencriptar{
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Light gray */
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+color: #0A3871;
+
+
+}
+
+#titulo-mensaje {
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%; /* Esto se traduce a aproximadamente 29px con font-size de 24px */
+    text-align: center;
+    color: #343A40; /* Gray/gray-500 */
+    
+}
+
+#parrafo {
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+
+width: 336px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+text-align: center;
+
+/* Gray/gray-400 */
+color: #495057;
+
+
+
+
+}
