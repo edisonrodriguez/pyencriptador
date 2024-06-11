@@ -14,7 +14,7 @@ function cifrar() {
             case 'o': return 'ober';
             case 'u': return 'ufat';
         }
-    });
+    }); /* Cambio completo en la funcion */
 
     if (texto.length !== 0) {
         mensaje.value = textoCifrado.toLowerCase();
