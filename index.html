@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <div class="container">
-            <div class="encriptador">
-                <textarea  class="texto"  name="texto" id="texto" placeholder="Ingresa el texto aqui" cols="30" rows="10"></textarea>
-            </div>
-            <div class="terminos">
-                <p>Solo letras minusculas y sin acentos</p>
-            </div>
-            <div class="botones">
-                <button class="btn-encriptar" type="button" onclick="encriptar()">
-                    Encriptar
-                </button>
-                <button class="btn-desencriptar" type="button" onclick="desencriptar()">
-                    Desencriptar
-                </button>
-            </div>
-        
+    <div class="container">
+        <img src="img/Logo.svg" alt="Logo" class="logo">
+        <div class="encriptador">
+            <textarea class="texto" name="texto" id="texto" placeholder="Ingresa el texto aqui" cols="30" rows="10"></textarea>
+        </div>
+        <div class="terminos">
+            <p>Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">
+                Encriptar
+            </button>
+            <button class="btn-desencriptar" type="button" onclick="desencriptar()">
+                Desencriptar
+            </button>
+        </div>
         <div class="encriptado">
             <img src="img/Muñeco.png" alt="muñecos" id="muñeco">
             <div class="mensaje-encriptado" id="mensaje-encriptado">
@@ -31,10 +31,7 @@
                 <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje" placeholder="Hola mundo"></textarea>
             </div>
         </div>
-        </div>
+    </div>
 </body>
-
-<script src="index.js">
-    
-</script>
+<script src="index.js"></script>
 </html>
